@@ -1,14 +1,24 @@
 .verificacion-docente {
   border: 3px dotted purple;
 }
-/**
-main {
-  background-color: red;
+
+body{
+    margin: 0;
+    padding: 0;
 }
-header {
-  background-color: aquamarine;
+
+.titulo{
+    color: rgb(219, 146, 241); font-size:50px;
+    background-color: rgb(231, 204, 235);
 }
-footer {
-  background-color: blueviolet;
+
+#banner {
+    display: block;
+    margin: auto;
+    width: 1000px;
 }
-**/
+
+main p{
+    font-size: 30px;
+    color: rgb(224, 147, 231);
+}
