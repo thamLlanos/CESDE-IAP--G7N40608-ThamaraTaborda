@@ -10,6 +10,8 @@ body{
 .titulo{
     color: rgb(219, 146, 241); font-size:50px;
     background-color: rgb(231, 204, 235);
+    text-align: center;
+    position: sticky;
 }
 
 #banner {
@@ -19,6 +21,48 @@ body{
 }
 
 main p{
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(224, 147, 231);
+    position: absolute;
+    top:  20%;
+    
+
+}
+
+.lista {
+    display: inline-block;
+    margin-right: 10%;
+    font-size: 30px;
+    background-color: rgb(238, 171, 255);
+    text-decoration: underline;
+}
+
+.menu {
+    font-size: 30px;
+   
+}
+
+form{
+    border:solid 5px;
+    display: inline-block;
+    border-color:rgb(232, 140, 255);
+    padding: 10px;
+    position: relative;
+    left: 35%
+}
+
+form label {
+    font-size: 30px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    
+}
+
+#papagaio {
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
 }
